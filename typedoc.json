@@ -6,10 +6,6 @@
     "typedoc-plugin-markdown"
   ],
   "out": "docs/api",
-  "hideBreadcrumbs": true,
-  "hideInPageTOC": false,
   "categorizeByGroup": true,
   "excludeInternal": true,
-  "githubPages": false,
-  "readme": "none"
 }
