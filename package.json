@@ -1,0 +1,14 @@
+{
+  "name": "inkeep-demo-lib",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:typedoc": "typedoc --options typedoc.json"
+  },
+  "devDependencies": {
+    "typedoc": "^0.26.6",
+    "typedoc-plugin-markdown": "^4.2.5",
+    "typescript": "^5.5.4"
+  }
+}
