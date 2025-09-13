@@ -21,6 +21,9 @@ jobs:
       - name: Install Node deps
         run: npm ci
 
+      - name: Install MkDocs deps
+        run: pip install -r requirements.txt
+
       - name: Generate API docs (TypeDoc -> Markdown)
         run: npm run build:typedoc
 
