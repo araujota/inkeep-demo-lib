@@ -1,7 +1,7 @@
 site_name: Inkeep Demo Lib
 site_description: A tiny TypeScript library with clean, crawlable docs for Inkeep demos.
-site_url: https://<your-username>.github.io/inkeep-demo-lib/
-repo_url: https://github.com/<your-username>/inkeep-demo-lib
+site_url: https://araujota.github.io/inkeep-demo-lib/
+repo_url: https://github.com/araujota/inkeep-demo-lib
 theme:
   name: material
   features:
@@ -17,11 +17,13 @@ nav:
       - Quickstart: guides/quickstart.md
       - Usage Patterns: guides/usage-patterns.md
   - API Reference:
-      - Overview: api/modules.md
+      - Overview: api/README.md
+      - Classes: api/classes/TinyQueue.md
+      - Functions: api/functions/hash.md
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/<your-username>/inkeep-demo-lib
+      link: https://github.com/araujota/inkeep-demo-lib
 markdown_extensions:
   - admonition
   - codehilite
