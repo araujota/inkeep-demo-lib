@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/api/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/api/globals/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/api/classes/TinyQueue/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/api/functions/hash/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/guides/quickstart/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+    <url>
+         <loc>https://araujota.github.io/inkeep-demo-lib/guides/usage-patterns/</loc>
+         <lastmod>2025-09-13</lastmod>
+    </url>
+</urlset>

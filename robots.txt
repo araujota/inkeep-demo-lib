@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://araujota.github.io/inkeep-demo-lib/sitemap.xml
