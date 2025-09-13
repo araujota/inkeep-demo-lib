@@ -7,8 +7,8 @@
     "build:typedoc": "typedoc --options typedoc.json"
   },
   "devDependencies": {
-    "typedoc": "^0.26.6",
-    "typedoc-plugin-markdown": "^4.2.5",
-    "typescript": "^5.5.4"
+    "typedoc": "^0.28.12",
+    "typedoc-plugin-markdown": "^4.8.1",
+    "typescript": "^5.9.2"
   }
 }
