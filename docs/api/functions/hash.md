@@ -8,7 +8,7 @@
 
 > **hash**(`s`): `number`
 
-Defined in: [index.ts:61](https://github.com/araujota/inkeep-demo-lib/blob/dc2aed72648e5dd506b55b566a6d7e500912e04f/src/index.ts#L61)
+Defined in: [index.ts:61](https://github.com/araujota/inkeep-demo-lib/blob/8045ed22acf532ebed8d31418c5f9a18d1adef5d/src/index.ts#L61)
 
 Compute a stable hash (djb2) for strings.
 

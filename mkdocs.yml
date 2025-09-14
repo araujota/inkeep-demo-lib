@@ -1,5 +1,5 @@
 site_name: Inkeep Demo Lib
-site_description: A tiny TypeScript library with clean, crawlable docs for Inkeep demos.
+site_description: A comprehensive TypeScript utilities library with clean, crawlable docs for Inkeep demos.
 site_url: https://araujota.github.io/inkeep-demo-lib/
 repo_url: https://github.com/araujota/inkeep-demo-lib
 theme:
@@ -8,18 +8,51 @@ theme:
     - content.code.copy
     - navigation.instant
     - navigation.sections
+    - navigation.expand
     - search.suggest
+    - search.highlight
 plugins:
   - search
 nav:
   - Home: index.md
   - Guides:
       - Quickstart: guides/quickstart.md
+      - Function Reference: guides/function-reference.md
       - Usage Patterns: guides/usage-patterns.md
   - API Reference:
       - Overview: api/README.md
-      - Classes: api/classes/TinyQueue.md
-      - Functions: api/functions/hash.md
+      - Classes:
+          - TinyQueue: api/classes/TinyQueue.md
+      - Array Functions:
+          - chunk(): api/functions/chunk.md
+          - flatten(): api/functions/flatten.md
+          - unique(): api/functions/unique.md
+          - shuffle(): api/functions/shuffle.md
+      - String Functions:
+          - capitalize(): api/functions/capitalize.md
+          - camelCase(): api/functions/camelCase.md
+          - kebabCase(): api/functions/kebabCase.md
+          - truncate(): api/functions/truncate.md
+      - Object Functions:
+          - deepClone(): api/functions/deepClone.md
+          - merge(): api/functions/merge.md
+          - pick(): api/functions/pick.md
+          - omit(): api/functions/omit.md
+      - Math Functions:
+          - clamp(): api/functions/clamp.md
+          - random(): api/functions/random.md
+          - average(): api/functions/average.md
+          - sum(): api/functions/sum.md
+      - Validation Functions:
+          - isEmail(): api/functions/isEmail.md
+          - isURL(): api/functions/isURL.md
+          - isEmpty(): api/functions/isEmpty.md
+      - Date Functions:
+          - formatDate(): api/functions/formatDate.md
+          - isToday(): api/functions/isToday.md
+          - daysBetween(): api/functions/daysBetween.md
+      - Legacy Functions:
+          - hash(): api/functions/hash.md
 extra:
   social:
     - icon: fontawesome/brands/github

@@ -6,7 +6,7 @@
 
 # Class: TinyQueue\<T\>
 
-Defined in: [index.ts:11](https://github.com/araujota/inkeep-demo-lib/blob/dc2aed72648e5dd506b55b566a6d7e500912e04f/src/index.ts#L11)
+Defined in: [index.ts:11](https://github.com/araujota/inkeep-demo-lib/blob/8045ed22acf532ebed8d31418c5f9a18d1adef5d/src/index.ts#L11)
 
 A resilient FIFO queue with time-based dequeue, used for demo purposes.
 
@@ -34,7 +34,7 @@ A resilient FIFO queue with time-based dequeue, used for demo purposes.
 
 > **get** **length**(): `number`
 
-Defined in: [index.ts:43](https://github.com/araujota/inkeep-demo-lib/blob/dc2aed72648e5dd506b55b566a6d7e500912e04f/src/index.ts#L43)
+Defined in: [index.ts:43](https://github.com/araujota/inkeep-demo-lib/blob/8045ed22acf532ebed8d31418c5f9a18d1adef5d/src/index.ts#L43)
 
 Number of items currently in the queue.
 
@@ -48,7 +48,7 @@ Number of items currently in the queue.
 
 > **clear**(): `void`
 
-Defined in: [index.ts:48](https://github.com/araujota/inkeep-demo-lib/blob/dc2aed72648e5dd506b55b566a6d7e500912e04f/src/index.ts#L48)
+Defined in: [index.ts:48](https://github.com/araujota/inkeep-demo-lib/blob/8045ed22acf532ebed8d31418c5f9a18d1adef5d/src/index.ts#L48)
 
 Remove all items from the queue.
 
@@ -62,7 +62,7 @@ Remove all items from the queue.
 
 > **dequeue**(`minMs`): `undefined` \| `T`
 
-Defined in: [index.ts:34](https://github.com/araujota/inkeep-demo-lib/blob/dc2aed72648e5dd506b55b566a6d7e500912e04f/src/index.ts#L34)
+Defined in: [index.ts:34](https://github.com/araujota/inkeep-demo-lib/blob/8045ed22acf532ebed8d31418c5f9a18d1adef5d/src/index.ts#L34)
 
 Dequeue the next value if it has been in the queue at least `minMs` milliseconds.
 
@@ -86,7 +86,7 @@ The dequeued value, or `undefined` if none is ready.
 
 > **enqueue**(`value`): `number`
 
-Defined in: [index.ts:23](https://github.com/araujota/inkeep-demo-lib/blob/dc2aed72648e5dd506b55b566a6d7e500912e04f/src/index.ts#L23)
+Defined in: [index.ts:23](https://github.com/araujota/inkeep-demo-lib/blob/8045ed22acf532ebed8d31418c5f9a18d1adef5d/src/index.ts#L23)
 
 Enqueue a value.
 
